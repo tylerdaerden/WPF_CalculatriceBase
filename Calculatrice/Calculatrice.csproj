@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="batterie Calculatrice.png" />
+    <None Remove="batterieblanc.png" />
+    <None Remove="reception.png" />
+    <None Remove="receptionblanc.png" />
+    <None Remove="signal wifi calculatrice.png" />
+    <None Remove="wifi blanc.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="batterie Calculatrice.png" />
+    <Resource Include="batterieblanc.png" />
+    <Resource Include="reception.png" />
+    <Resource Include="receptionblanc.png" />
+    <Resource Include="signal wifi calculatrice.png" />
+    <Resource Include="wifi blanc.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\batterie Calculatrice.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Horloge Calculatrice.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\reception.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\signal wifi calculatrice.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
